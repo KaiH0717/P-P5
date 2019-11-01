@@ -1,0 +1,111 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Interface">
+      <UniqueIdentifier>{abfdbfdb-af39-4523-b02a-bfae272f357a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File IO">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="FBX Header">
+      <UniqueIdentifier>{605e1667-80fd-44be-90b4-2e5d08663f7c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FBX Source">
+      <UniqueIdentifier>{1c3fae62-f1e7-4730-b12b-c137843ef8e2}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="FBXLoader.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\FBXBinary\FBXBinaryFileIO.cpp">
+      <Filter>File IO</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXExporter.cpp">
+      <Filter>FBX Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXGeometryMaterial.cpp">
+      <Filter>FBX Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXNodeMesh.cpp">
+      <Filter>FBX Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXNodeSkeleton.cpp">
+      <Filter>FBX Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXSceneAnimation.cpp">
+      <Filter>FBX Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXSceneContent.cpp">
+      <Filter>FBX Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXScenePose.cpp">
+      <Filter>FBX Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXUtility.cpp">
+      <Filter>FBX Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXGeometryLink.cpp">
+      <Filter>FBX Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXSceneHierarchy.cpp">
+      <Filter>FBX Source</Filter>
+    </ClCompile>
+    <ClCompile Include="FBXSceneInfo.cpp">
+      <Filter>FBX Source</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FBXInterface.h">
+      <Filter>Interface</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FBXBinary\FBXBinaryFileIO.h">
+      <Filter>File IO</Filter>
+    </ClInclude>
+    <ClInclude Include="..\FBXBinary\FileStructures.h">
+      <Filter>File IO</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXExporter.h">
+      <Filter>FBX Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXGeometryMaterial.h">
+      <Filter>FBX Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXNodeMesh.h">
+      <Filter>FBX Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXNodeSkeleton.h">
+      <Filter>FBX Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXSceneAnimation.h">
+      <Filter>FBX Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXSceneContent.h">
+      <Filter>FBX Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXScenePose.h">
+      <Filter>FBX Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXUtility.h">
+      <Filter>FBX Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXGeometryLink.h">
+      <Filter>FBX Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXSceneHierarchy.h">
+      <Filter>FBX Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FBXSceneInfo.h">
+      <Filter>FBX Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
